@@ -14,7 +14,13 @@ function playerdead()
        })
 end
 
-
+function displayint(number)
+    local number = math.floor(number)
+    if (number < 10) then
+        number = "0" .. number;
+    end
+    return number;
+end
 
 function starttimer()
     while true do
@@ -31,8 +37,10 @@ print(bleedouttimeminute,bleedouttimesecond)
         isplayerdead = true
     end
 
+        
+        
 SendNUIMessage({
-    value = bleedouttimeminute..":"..bleedouttimesecond,
+    value = displayint(bleedouttimeminute)..":"..displayint(bleedouttimesecond),
     type = 'timer',
     bleedout = isplayerdead
 })
