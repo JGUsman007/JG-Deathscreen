@@ -4,7 +4,7 @@
 }
 
 body{
-    display: none
+    display: none;
 }
 .container{
     background-image: url("https://cdn.discordapp.com/attachments/985595018800681000/1078695178640035910/deathscreenback.png" );
@@ -62,6 +62,14 @@ body{
     outline-color: transparent;
 }
 
+#spawntext {
+    text-align: center;
+    color: white;
+    font-family: 'Source Code Pro';
+    margin-bottom: -4%;
+    font-weight: bold;
+    font-size: 12vh;
+}
 
 .respawnselector {
     display: none;
@@ -75,7 +83,9 @@ body{
     height: 100%;
 }
 
+
 #spawn{
+    margin-top: 5vh;
     font-family: 'Source Code Pro';
     font-size: 12vh;
     font-weight: bolder;
