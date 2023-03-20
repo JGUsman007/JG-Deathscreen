@@ -6,7 +6,8 @@ https://youtu.be/tN3ZCSlSIFk
    ```JG Deathscreen```
    
    It is a simple death screen with respawn selector and nui
-   
+   # Join discord server
+ https://discord.gg/HWejPwZgvQ
    
    ```INSTALLATION```
 
